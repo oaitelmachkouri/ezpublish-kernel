@@ -1,6 +1,6 @@
 <?php
 /**
- * File containing the Null converter
+ * File containing the NullProvider converter
  *
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
@@ -16,9 +16,9 @@ use eZ\Publish\SPI\Persistence\Content\Type\FieldDefinition;
 use eZ\Publish\Core\Persistence\Legacy\Content\StorageFieldDefinition;
 
 /**
- * The Null converter does not perform any conversions at all.
+ * The NullProvider converter does not perform any conversions at all.
  */
-class Null implements Converter
+class NullProvider implements Converter
 {
     /**
      * Factory for current class
